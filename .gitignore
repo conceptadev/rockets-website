@@ -1,5 +1,6 @@
 .next
 .tmp
 .temp
+out
 node_modules
-./pages/reference/rockets
+pages/reference/rockets
