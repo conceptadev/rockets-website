@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
         height={16}
         width={16}
         alt="Rockets Logo"
-        src={'/assets/rockets-icon.svg'}
+        src={'/rockets-website/assets/rockets-icon.svg'}
       />
       <span className="mr-2 font-extrabold mx-2 hidden md:inline">Rockets</span>
       {/* <span className="text-gray-600 font-normal text-sm hidden md:inline">
