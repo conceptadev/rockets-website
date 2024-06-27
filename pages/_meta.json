@@ -1,5 +1,10 @@
 {
   "index": "Introduction",
+  "overview": "Overview",
+  "documentation": "Documentation",
+  "---": {
+    "type": "separator"
+  },
   "reference": {
     "title": "API Reference",
     "type": "menu",
@@ -7,6 +12,10 @@
       "rockets": {
         "title": "Rockets Core API",
         "href": "/reference/rockets/README"
+      },
+      "rockets-react": {
+        "title": "Rockets React API",
+        "href": "/reference/rockets-react/README"
       }
     }
   },

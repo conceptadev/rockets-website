@@ -6,7 +6,7 @@
     "./.tmp/repos/rockets/packages/nestjs-samples"
   ],
   "excludeExternals": true,
-  "name": "Packages Example",
+  "name": "Rockets",
   "plugin": [
     "typedoc-plugin-markdown",
     "./plugins/docs/typedoc-markdown-nextra.mjs"

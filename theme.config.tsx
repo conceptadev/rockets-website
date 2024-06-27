@@ -17,6 +17,10 @@ const config: DocsThemeConfig = {
     prev: true,
     next: true,
   },
+  sidebar: {
+    autoCollapse: true,
+    defaultMenuCollapseLevel: 1,
+  },
   logo: (
     <>
       <img

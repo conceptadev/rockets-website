@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "build:docs": "rimraf .tmp pages/reference && ./build/docs-core.sh"
+    "docs:build": "./build/docs-all.sh",
+    "docs:clean": "./build/docs-clean.sh"
   },
   "repository": {
     "type": "git",

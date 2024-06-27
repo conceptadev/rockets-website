@@ -3,10 +3,16 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 });
 
+const configsFromEnv = {};
+
+if (process.env?.NEXT_OUTPUT) {
+  configsFromEnv['output'] = process.env.NEXT_OUTPUT;
+}
+
 module.exports = withNextra({
   basePath: '/rockets-website',
-  output: 'export',
   images: {
     unoptimized: true,
-  }
+  },
+  ...configsFromEnv,
 });

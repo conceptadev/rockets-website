@@ -1,0 +1,24 @@
+{
+  "tsconfig": ["./.tmp/repos/rockets-react/tsconfig.json"],
+  "entryPoints": ["./.tmp/repos/rockets-react/packages/*"],
+  "exclude": [
+    "**/*+(index|.spec|.e2e).(ts|tsx)",
+    "./.tmp/repos/rockets-react/packages/react-common",
+    "./.tmp/repos/rockets-react/packages/react-notification-provider",
+    "./.tmp/repos/rockets-react/packages/react-router",
+    "./.tmp/repos/rockets-react/packages/react-samples"
+  ],
+  "excludeExternals": true,
+  "name": "Rockets React",
+  "plugin": [
+    "typedoc-plugin-markdown",
+    "./plugins/docs/typedoc-markdown-nextra.mjs"
+  ],
+  "out": "./pages/reference/rockets-react",
+  "entryPointStrategy": "packages",
+  "fileExtension": "mdx",
+  "theme": "customTheme",
+  "excludeScopesInPaths": true,
+  "includeVersion": false,
+  "logLevel": "Verbose"
+}

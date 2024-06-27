@@ -1,5 +1,8 @@
 {
   "rockets": {
-    "title": "Rockets API"
+    "title": "Rockets Core API"
+  },
+  "rockets-react": {
+    "title": "Rockets React API"
   }
 }
