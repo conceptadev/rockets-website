@@ -12,6 +12,7 @@ jobs:
 
     env:
       NEXT_OUTPUT: export
+      NEXT_BASE_PATH: /rockets-website
     
     steps:
       - uses: actions/checkout@v2

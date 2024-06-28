@@ -2,6 +2,12 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import Search from './components/Search';
 
+let basePath = '';
+
+if (process.env?.NEXT_BASE_PATH) {
+  basePath = process.env.NEXT_BASE_PATH;
+}
+
 const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/conceptadev/rockets',
@@ -28,7 +34,7 @@ const config: DocsThemeConfig = {
         height={16}
         width={16}
         alt="Rockets Logo"
-        src={'/rockets-website/assets/rockets-icon.svg'}
+        src={`${basePath}/assets/rockets-icon.svg`}
       />
       <span className="mr-2 font-extrabold mx-2 hidden md:inline">Rockets</span>
       {/* <span className="text-gray-600 font-normal text-sm hidden md:inline">
