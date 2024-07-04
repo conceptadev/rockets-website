@@ -8,7 +8,9 @@
     "start": "next start",
     "export": "next export",
     "docs:build": "./build/docs-all.sh",
-    "docs:clean": "./build/docs-clean.sh"
+    "docs:clean": "./build/docs-clean.sh",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,9 @@
   },
   "homepage": "https://github.com/conceptadev/rockets-website",
   "dependencies": {
+    "@concepta/react-auth-provider": "^1.0.0-alpha.29",
+    "@concepta/react-data-provider": "^1.0.0-alpha.29",
+    "@concepta/react-material-ui": "^1.0.0-alpha.29",
     "@docsearch/react@3": "^3.6.0",
     "@heroicons/react": "^1.0.0",
     "next": "^14.0.0",
@@ -28,14 +33,35 @@
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-    },
+  },
   "devDependencies": {
+    "@chromatic-com/storybook": "1.6.0",
+    "@storybook/addon-essentials": "^8.1.11",
+    "@storybook/addon-interactions": "^8.1.11",
+    "@storybook/addon-links": "^8.1.11",
+    "@storybook/addon-onboarding": "^8.1.11",
+    "@storybook/blocks": "^8.1.11",
+    "@storybook/nextjs": "^8.1.11",
+    "@storybook/react": "^8.1.11",
+    "@storybook/test": "^8.1.11",
     "@types/node": "18.11.10",
     "autoprefixer": "^10.4.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "msw": "^2.3.1",
+    "msw-storybook-addon": "^2.0.2",
+    "rimraf": "^5.0.7",
+    "storybook": "^8.1.11",
     "tailwindcss": "^3.0.7",
     "typedoc": "^0.25.13",
     "typedoc-plugin-markdown": "^4.0.3",
-    "rimraf": "^5.0.7",
     "typescript": "^4.9.3"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }

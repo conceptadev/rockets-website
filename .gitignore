@@ -5,3 +5,5 @@ out
 node_modules
 pages/reference/rockets
 pages/reference/rockets-react
+
+*storybook.log
