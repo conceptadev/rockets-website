@@ -20,7 +20,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    src: "https://ca.slack-edge.com/T02996B3M-U043VNBUQP7-db78326ad0ea-512",
+    src: "https://picsum.photos/200/200",
     alt: "Avatar image",
     size: 70,
   },

@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { http, HttpResponse } from "msw";
 import { RJSFSchema } from "@rjsf/utils";
-// import { fn } from '@storybook/test';
 import { CrudModule } from "@concepta/react-material-ui";
 import {
   mockRequestDataGen,
