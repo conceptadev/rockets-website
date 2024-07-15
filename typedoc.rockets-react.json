@@ -16,9 +16,15 @@
   ],
   "out": "./pages/reference/rockets-react",
   "entryPointStrategy": "packages",
-  "fileExtension": "mdx",
+  "fileExtension": ".mdx",
   "theme": "customTheme",
   "excludeScopesInPaths": true,
+  "parametersFormat": "table",
+  "interfacePropertiesFormat": "table",
+  "classPropertiesFormat": "table",
+  "enumMembersFormat": "table",
+  "typeDeclarationFormat": "table",
+  "propertyMembersFormat": "table",
   "includeVersion": false,
   "logLevel": "Verbose"
 }
