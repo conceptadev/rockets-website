@@ -13,7 +13,7 @@
   ],
   "out": "./pages/reference/rockets",
   "entryPointStrategy": "packages",
-  "fileExtension": "mdx",
+  "fileExtension": ".mdx",
   "theme": "customTheme",
   "excludeScopesInPaths": true,
   "includeVersion": false,
