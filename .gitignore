@@ -1,6 +1,7 @@
 .next
 .tmp
 .temp
+.yarn
 out
 node_modules
 pages/reference/rockets
